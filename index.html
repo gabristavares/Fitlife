@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitLife</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <title>FitLife</title>
 </head>
-
-
-
 <body>
-
     <nav>
-        <a class="logo" href="../index.html">
+        <a class="logo" href="index.html">    
             <i class="fas fa-heartbeat"></i>
-        Fitlife</a>
+            FitLife
+        </a>
+
         <ul class="nav-links">
             <li><a class="nav-link" id="nav-active" href="index.html">Home</a></li>
             <li><a class="nav-link" href="pages/tmb.html">TMB</a></li>
@@ -28,43 +29,35 @@
         </ul>
     </nav>
 
-    <header>
-        <h1 class="titulo">Bem-Vindo ao FitLife</h1>
-        <p>Ferramentas de saúde e bem-estar</p>
+
+    <header class="header-container">
+        <h1>Bem-vindo ao <span>FitLife</span></h1>
+        <p>Seu hub central de saúde. Escolha uma ferramenta:</p>
     </header>
 
     <main>
-        <h2>Ferramentas disponíveis</h2>
-        
-        <section>
-
-            <a href="pages/imc.html">
+        <section class="cards-section">
+            <a class="feature-card" href="pages/imc.html">
+                <i class="fas fa-weight"></i>
                 <h3>Calculadora IMC</h3>
                 <p>Verifique seu peso ideal</p>
             </a>
 
-            <a href="pages/tmb.html">
+            <a class="feature-card" href="pages/tmb.html">
+                <i class="fas fa-fire"></i>
                 <h3>Taxa Metabólica</h3>
-                <p>Calcule gasto calórico</p>
+                <p>Calcule gasto calórico.</p>
             </a>
 
-            <a href="pages/water.html">
+            <a class="feature-card" href="pages/water.html">
+                <i class="fas fa-tint"></i>
                 <h3>Hidratação</h3>
-                <p>Saiba a quantidade de água que seu corpo precisa diariamente</p>
+                <p>Saiba a quantidade de água que seu corpo precisa diariamente.</p>
             </a>
         </section>
+
     </main>
 
-    <h1>Fitlife</h1>
-    <p>ferramentas de saúde e bem-estar</p>
-    <h2>Ferramentas disponíveis</h2>
-
-    <ul>
-        <li>Calculadora IMC</li>
-        <li>Taxa metabólica basal</li>
-        <li>Controle de hidratação</li>
-    </ul>
-
+    
 </body>
-
 </html>
