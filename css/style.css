@@ -151,21 +151,15 @@ main {
     font-weight: 600;
     color: var(--secondary-color);
 }
-.form-group select{
+
+.form-group input,.form-group select{
     padding: 0.8rem;
     border: 2px solid var(--border-color);
     border-radius: 5px;
     font-size: 1rem;
     font-family: inherit;
 }
-.form-group input{
-    padding: 0.8rem;
-    border: 2px solid var(--border-color);
-    border-radius: 5px;
-    font-size: 1rem;
-    font-family: inherit;
-}
-.form-group input:focus{
+.form-group input:focus,.form-group select:focus{
     outline: none;
     border-color: var(--primary-color);
 }
