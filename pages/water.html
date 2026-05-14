@@ -1,26 +1,35 @@
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitlife | ÁGUA</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/water.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"/>
-       <link rel="stylesheet" href="../css/style.css">
-       <link rel="stylesheet" href="../css/water.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+      rel="stylesheet"
+    />
   </head>
-  <body style="font-family: Poppins">
 
-      <nav>
-        <a class="logo" href="../index.html"><i class="fas fa-heartbeat"></i>Fitlife</a>
-        <ul class="nav-links">
-            <li><a class="nav-link" href="tmb.html">TMB</a></li>
-            <li><a class="nav-link" href="imc.html">IMC</a></li>
-            <li><a class="nav-link" id="nav-active" href="water.html">Água</a></li>
-        </ul>
+  <body style="font-family: Poppins">
+    <nav>
+      <a class="logo" href="../index.html">
+        <i class="fas fa-heartbeat"></i>Fitlife
+      </a>
+
+      <ul class="nav-links">
+        <li><a class="nav-link" href="../index.html">Home</a></li>
+        <li><a class="nav-link" href="tmb.html">TMB</a></li>
+        <li><a class="nav-link" href="imc.html">IMC</a></li>
+        <li><a class="nav-link" id="nav-active" href="water.html">Água</a></li>
+      </ul>
     </nav>
 
     <main>
@@ -28,24 +37,22 @@
         <div class="tool-container-title">
           <h2><i class="fas fa-tint"></i>Hidratação</h2>
           <p>Meta: 2500ml</p>
-          
+        </div>
+        
+
         <div class="water-controls">
-            <button class="action-btn" type="button">+ 250 ml</button>
-            <button class="action-btn" type="button">Zerar</button>
+          <button class="action-btn btn-water-add" type="button">+ 250 ml</button>
+          <button class="action-btn btn-water-reset" type="button">Zerar</button>
         </div>
 
-        <div>
-            <div>0%</div>
+        <div class="progress-container"> 
+          <div class="progress-bar">0%</div>
         </div>
 
         <p>Total: 0 ml</p>
 
-        
-
         <a class="action-btn btn-back" href="../index.html">Voltar</a>
       </section>
-
-      
     </main>
   </body>
 </html>
